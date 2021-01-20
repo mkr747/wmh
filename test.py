@@ -5,13 +5,12 @@ from datetime import datetime
 
 class Test:
     def __init__(self):
-        self.degrees = np.arange(1, 10, 0.1)
-        self.gammas = np.arange(0.0, 1.0, 0.01)
-        self.coef0s = np.arange(0, 20, 0.1)
-        self.tols = np.arange(0, 2, 0.001)
-        self.Cs = np.arange(1, 100)
-        self.epsilons = [0.005, 0.01, 0.05, 0.1, 0.5, 1, 5, 10]
-        print(self.epsilons)
+        self.degrees = [2, 3, 4, 5]
+        self.gammas = np.arange(0.0, 1, 0.1)
+        self.coef0s = np.arange(0.0, 0.5, 0.1)
+        self.tols = np.arange(0.001, 0.01, 0.001)
+        self.Cs = [1.0]
+        self.epsilons = np.arange(0.1, 0.5, 0.1)
         self.shrinking = [True, False]
         self.calculator = SVRCalculator()
 
@@ -118,7 +117,7 @@ class Test:
     def sigmoid_search_grid_test(self, data_name):
         print("Sigmoid")
         params = {
-            'kernel': ['poly'],
+            'kernel': ['sigmoid'],
             'gamma': self.gammas,
             'coef0': self.coef0s,
             'tol': self.tols,
@@ -136,7 +135,7 @@ class Test:
     def precomputed_search_grid_test(self, data_name):
         print("Precomputed")
         params = {
-            'kernel': ['poly'],
+            'kernel': ['precomputed'],
             'tol': self.tols,
             'C': self.Cs,
             'epsilon': self.epsilons,

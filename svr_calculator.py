@@ -48,8 +48,9 @@ class SVRCalculator:
         grid_search = GridSearchCV(estimator=regr, param_grid=params,
                                    cv=5, n_jobs=-1, verbose=0, refit=True)
 
-        grid_search.fit(X, y[0])
-        print("Best parameters for {data_name}: ")
+        grid_search.fit(X, y.values.ravel())
+        print("Best parameters for")
+        print(data_name)
         print(grid_search.best_params_)
         next_day_prediction = sc_y.inverse_transform(
             grid_search.predict(next_day))
@@ -62,7 +63,7 @@ class SVRCalculator:
         print("Next week prediction: ", next_week_prediction)
         print("Next month prediction: ", next_month_prediction)
 
-        SVRCalculator.count_errors(y, X, sc_y, regr)
+        SVRCalculator.count_errors(y, X, sc_y, grid_search)
 
     @staticmethod
     def calculate_svr(regr, data_name, visualization=False):

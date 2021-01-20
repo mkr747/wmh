@@ -3,8 +3,7 @@ from test import Test
 
 
 def main():
-    test = Test()
-    test.linear_search_grid_test('AMZN 1y.csv')
+    second_part_tests()
 
 
 def first_part_tests():
@@ -24,7 +23,7 @@ def run_tests(data_name):
     test = Test()
     test.linear_search_grid_test(data_name)
     test.poly_search_grid_test(data_name)
-    test.precomputed_search_grid_test(data_name)
+    #test.precomputed_search_grid_test(data_name)
     test.rbf_search_grid_test(data_name)
     test.sigmoid_search_grid_test(data_name)
 
