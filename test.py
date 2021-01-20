@@ -64,6 +64,7 @@ class Test:
                             data_name=data_name, tol=tol, C=C, epsilon=epsilon, shrinking=shrink, visualization=False)
 
     def linear_search_grid_test(self, data_name):
+        print("Linear")
         params = {
             'kernel': ['linear'],
             'tol': self.tols,
@@ -79,6 +80,7 @@ class Test:
         print(end)
 
     def rbf_search_grid_test(self, data_name):
+        print("RBF")
         params = {
             'kernel': ['rbf'],
             'gamma': self.gammas,
@@ -95,6 +97,7 @@ class Test:
         print(end)
 
     def poly_search_grid_test(self, data_name):
+        print("Poly")
         params = {
             'kernel': ['poly'],
             'degree': self.degrees,
@@ -113,6 +116,7 @@ class Test:
         print(end)
 
     def sigmoid_search_grid_test(self, data_name):
+        print("Sigmoid")
         params = {
             'kernel': ['poly'],
             'gamma': self.gammas,
@@ -130,6 +134,7 @@ class Test:
         print(end)
 
     def precomputed_search_grid_test(self, data_name):
+        print("Precomputed")
         params = {
             'kernel': ['poly'],
             'tol': self.tols,

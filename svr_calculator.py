@@ -49,6 +49,8 @@ class SVRCalculator:
                                    cv=5, n_jobs=-1, verbose=0, refit=True)
 
         grid_search.fit(X, y[0])
+        print("Best parameters for {data_name}: ")
+        print(grid_search.best_params_)
         next_day_prediction = sc_y.inverse_transform(
             grid_search.predict(next_day))
         next_week_prediction = sc_y.inverse_transform(
