@@ -6,7 +6,7 @@ from datetime import datetime
 class Test:
     def __init__(self):
         self.degrees = [2, 3, 4, 5]
-        self.gammas = np.arange(0.0, 1, 0.1)
+        self.gammas = np.arange(0.1, 1, 0.1)
         self.coef0s = np.arange(0.0, 0.5, 0.1)
         self.tols = np.arange(0.001, 0.01, 0.001)
         self.Cs = [1.0]

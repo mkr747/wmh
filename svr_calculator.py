@@ -46,7 +46,7 @@ class SVRCalculator:
         X, y, sc_y, next_day, next_week, next_month, sc_X = SVRCalculator.data_normalization(
             max_date, min_date, y, X)
         grid_search = GridSearchCV(estimator=regr, param_grid=params,
-                                   cv=5, n_jobs=-1, verbose=0, refit=True)
+                                   cv=5, n_jobs=4, verbose=0, refit=True)
 
         grid_search.fit(X, y.values.ravel())
         print("Best parameters for")
@@ -96,9 +96,9 @@ class SVRCalculator:
         mse = mean_squared_error(sc_y.inverse_transform(
             y), sc_y.inverse_transform(regr.predict(X)))
         print("Mse: ", mse)
-        scores = cross_val_score(regr, sc_y.inverse_transform(
-            y), sc_y.inverse_transform(regr.predict(X)))
-        print(scores)
+        #scores = cross_val_score(regr, sc_y.inverse_transform(
+        #    y), sc_y.inverse_transform(regr.predict(X)))
+        #print(scores)
 
     @staticmethod
     def data_normalization(max_date, min_date, y, X):

@@ -1,0 +1,220 @@
+Linear
+2021-01-20 20:16:52.683076
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+FB 3M.csv
+{'C': 1.0, 'epsilon': 0.2, 'kernel': 'linear', 'shrinking': True, 'tol': 0.005}
+Next day prediction:  [275.66672475]
+Next week prediction:  [276.17672499]
+Next month prediction:  [278.13172589]
+Mse:  131.70660567355137
+2021-01-20 20:16:53.719151
+Poly
+2021-01-20 20:16:53.719151
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+FB 3M.csv
+{'C': 1.0, 'coef0': 0.4, 'degree': 3, 'epsilon': 0.1, 'gamma': 0.9, 'kernel': 'poly', 'shrinking': True, 'tol': 0.001}
+Next day prediction:  [271.71849772]
+Next week prediction:  [263.29164493]
+Next month prediction:  [186.2455436]
+Mse:  33.35278888447549
+2021-01-20 20:17:46.614306
+RBF
+2021-01-20 20:17:46.614306
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+FB 3M.csv
+{'C': 1.0, 'epsilon': 0.1, 'gamma': 0.9, 'kernel': 'rbf', 'shrinking': True, 'tol': 0.001}
+Next day prediction:  [274.20635591]
+Next week prediction:  [272.99101556]
+Next month prediction:  [273.89735341]
+Mse:  16.838046537942365
+2021-01-20 20:17:49.143741
+Sigmoid
+2021-01-20 20:17:49.144726
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+FB 3M.csv
+{'C': 1.0, 'coef0': 0.0, 'epsilon': 0.1, 'gamma': 0.1, 'kernel': 'sigmoid', 'shrinking': True, 'tol': 0.009000000000000001}
+Next day prediction:  [275.27506987]
+Next week prediction:  [275.84657833]
+Next month prediction:  [278.39212824]
+Mse:  132.05206641334064
+2021-01-20 20:18:01.427413
+Linear
+2021-01-20 20:18:01.427413
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+FB 6M.csv
+{'C': 1.0, 'epsilon': 0.1, 'kernel': 'linear', 'shrinking': True, 'tol': 0.002}
+Next day prediction:  [281.62503001]
+Next week prediction:  [283.43692006]
+Next month prediction:  [290.3824986]
+Mse:  128.59118780151556
+2021-01-20 20:18:01.769597
+Poly
+2021-01-20 20:18:01.769597
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+FB 6M.csv
+{'C': 1.0, 'coef0': 0.4, 'degree': 2, 'epsilon': 0.2, 'gamma': 0.1, 'kernel': 'poly', 'shrinking': True, 'tol': 0.003}
+Next day prediction:  [279.3201397]
+Next week prediction:  [280.43870046]
+Next month prediction:  [284.28921658]
+Mse:  116.27553750712126
+2021-01-20 20:18:58.847288
+RBF
+2021-01-20 20:18:58.848288
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+FB 6M.csv
+{'C': 1.0, 'epsilon': 0.1, 'gamma': 0.1, 'kernel': 'rbf', 'shrinking': True, 'tol': 0.009000000000000001}
+Next day prediction:  [276.28239288]
+Next week prediction:  [276.40806578]
+Next month prediction:  [275.7647928]
+Mse:  111.97110232082376
+2021-01-20 20:19:01.460679
+Sigmoid
+2021-01-20 20:19:01.460679
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+FB 6M.csv
+{'C': 1.0, 'coef0': 0.0, 'epsilon': 0.1, 'gamma': 0.30000000000000004, 'kernel': 'sigmoid', 'shrinking': True, 'tol': 0.001}
+Next day prediction:  [273.13656233]
+Next week prediction:  [270.94229102]
+Next month prediction:  [258.76424137]
+Mse:  142.8870193876047
+2021-01-20 20:19:14.651529
+Linear
+2021-01-20 20:19:14.651529
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+apple 1Y.csv
+{'C': 1.0, 'epsilon': 0.4, 'kernel': 'linear', 'shrinking': True, 'tol': 0.007}
+Next day prediction:  [120.24725648]
+Next week prediction:  [121.28141092]
+Next month prediction:  [125.24566964]
+Mse:  96.06869369568273
+2021-01-20 20:19:15.065042
+Poly
+2021-01-20 20:19:15.066039
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+apple 1Y.csv
+{'C': 1.0, 'coef0': 0.1, 'degree': 2, 'epsilon': 0.30000000000000004, 'gamma': 0.1, 'kernel': 'poly', 'shrinking': True, 'tol': 0.007}
+Next day prediction:  [124.09220062]
+Next week prediction:  [125.8749391]
+Next month prediction:  [132.98649016]
+Mse:  80.33296296649237
+2021-01-20 20:20:27.856111
+RBF
+2021-01-20 20:20:27.863110
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+apple 1Y.csv
+{'C': 1.0, 'epsilon': 0.4, 'gamma': 0.9, 'kernel': 'rbf', 'shrinking': True, 'tol': 0.004}
+Next day prediction:  [109.9330024]
+Next week prediction:  [108.45712061]
+Next month prediction:  [102.97527917]
+Mse:  27.429611837381948
+2021-01-20 20:20:30.625837
+Sigmoid
+2021-01-20 20:20:30.633835
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+apple 1Y.csv
+{'C': 1.0, 'coef0': 0.0, 'epsilon': 0.4, 'gamma': 0.1, 'kernel': 'sigmoid', 'shrinking': True, 'tol': 0.009000000000000001}
+Next day prediction:  [118.95154622]
+Next week prediction:  [120.03350699]
+Next month prediction:  [124.24780801]
+Mse:  98.49308172734987
+2021-01-20 20:20:46.879623
+Linear
+2021-01-20 20:20:46.880622
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+apple 3M.csv
+{'C': 1.0, 'epsilon': 0.1, 'kernel': 'linear', 'shrinking': True, 'tol': 0.003}
+Next day prediction:  [117.06789837]
+Next week prediction:  [117.11305614]
+Next month prediction:  [117.28616092]
+Mse:  26.48910908402155
+2021-01-20 20:20:47.200002
+Poly
+2021-01-20 20:20:47.201005
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+apple 3M.csv
+{'C': 1.0, 'coef0': 0.0, 'degree': 4, 'epsilon': 0.1, 'gamma': 0.30000000000000004, 'kernel': 'poly', 'shrinking': True, 'tol': 0.001}
+Next day prediction:  [121.91302514]
+Next week prediction:  [126.68752132]
+Next month prediction:  [170.88558093]
+Mse:  13.375325966233776
+2021-01-20 20:21:37.446947
+RBF
+2021-01-20 20:21:37.447948
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+apple 3M.csv
+{'C': 1.0, 'epsilon': 0.4, 'gamma': 0.2, 'kernel': 'rbf', 'shrinking': True, 'tol': 0.002}
+Next day prediction:  [117.57330697]
+Next week prediction:  [118.02320221]
+Next month prediction:  [119.34750047]
+Mse:  16.669204824713354
+2021-01-20 20:21:40.202140
+Sigmoid
+2021-01-20 20:21:40.202140
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+apple 3M.csv
+{'C': 1.0, 'coef0': 0.1, 'epsilon': 0.1, 'gamma': 0.7000000000000001, 'kernel': 'sigmoid', 'shrinking': True, 'tol': 0.001}
+Next day prediction:  [125.57952439]
+Next week prediction:  [130.80360211]
+Next month prediction:  [149.43309606]
+Mse:  77.52166479271062
+2021-01-20 20:21:53.934431
+Linear
+2021-01-20 20:21:53.935376
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+apple 6M.csv
+{'C': 1.0, 'epsilon': 0.1, 'kernel': 'linear', 'shrinking': True, 'tol': 0.002}
+Next day prediction:  [124.81543742]
+Next week prediction:  [126.17946136]
+Next month prediction:  [131.40821977]
+Mse:  64.57528926432042
+2021-01-20 20:21:54.320421
+Poly
+2021-01-20 20:21:54.320421
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+apple 6M.csv
+{'C': 1.0, 'coef0': 0.2, 'degree': 2, 'epsilon': 0.1, 'gamma': 0.2, 'kernel': 'poly', 'shrinking': True, 'tol': 0.001}
+Next day prediction:  [116.45533404]
+Next week prediction:  [115.92368564]
+Next month prediction:  [112.76638811]
+Mse:  32.85516074164628
+2021-01-20 20:22:48.314182
+RBF
+2021-01-20 20:22:48.315201
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+apple 6M.csv
+{'C': 1.0, 'epsilon': 0.1, 'gamma': 0.1, 'kernel': 'rbf', 'shrinking': True, 'tol': 0.001}
+Next day prediction:  [116.11367535]
+Next week prediction:  [115.52030509]
+Next month prediction:  [112.60564245]
+Mse:  32.86760282531223
+2021-01-20 20:22:50.830903
+Sigmoid
+2021-01-20 20:22:50.831902
+dict_keys(['C', 'cache_size', 'coef0', 'degree', 'epsilon', 'gamma', 'kernel', 'max_iter', 'shrinking', 'tol', 'verbose'])
+Best parameters for
+apple 6M.csv
+{'C': 1.0, 'coef0': 0.0, 'epsilon': 0.4, 'gamma': 0.4, 'kernel': 'sigmoid', 'shrinking': True, 'tol': 0.001}
+Next day prediction:  [114.01166273]
+Next week prediction:  [111.4866065]
+Next month prediction:  [99.60461108]
+Mse:  89.45693724883724
+2021-01-20 20:23:03.592871
